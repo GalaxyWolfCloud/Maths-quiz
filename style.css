@@ -9,10 +9,10 @@
 #player1_name , #player2_name{
     display: inline-block;
     margin-left: 1.5rem;
-    color: #fff;
+    color: rgb(8, 6, 6);
 }
 span{
-    color: #fff;
+    color: rgb(14, 11, 11);
 }
 .bg{
     background-color: rgb(201, 48, 43);
