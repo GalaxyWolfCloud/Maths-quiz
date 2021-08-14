@@ -42,7 +42,8 @@ Answer_turn = "player2";
 function check(){
     ans = document.querySelector("#input_check_box").value;
 
-    if(ans = answer){
+    if(ans == answer)
+    {
         if(Answer_turn == "player1"){
             player1_score += 1;
             document.getElementById("player1_score").innerHTML = player1_score;
